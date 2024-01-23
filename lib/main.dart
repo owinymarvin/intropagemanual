@@ -3,6 +3,7 @@ import 'package:page/screens/intro/intro_screen_four.dart';
 import 'package:page/screens/intro/intro_screen_one.dart';
 import 'package:page/screens/intro/intro_screen_three.dart';
 import 'package:page/screens/intro/intro_screen_two.dart';
+import 'package:page/screens/splash/splash_screen.dart';
 import 'package:page/screens/welcome/welcome_screen.dart';
 import 'package:smooth_page_indicator/smooth_page_indicator.dart';
 
@@ -21,7 +22,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const MyHomePage(),
+      home: const SplashScreen(),
     );
   }
 }
